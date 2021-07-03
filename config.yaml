@@ -1,0 +1,7 @@
+host: '172.30.194.250'
+port: 8848
+namespace: 'dfc26a2c-376d-4f35-bcfb-962d9b10a3d7'
+user: 'nacos'
+password: 'nacos'
+dataid: 'go-grpc-srv.json'
+group: 'dev'

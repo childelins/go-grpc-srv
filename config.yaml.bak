@@ -1,0 +1,24 @@
+name: 'go-grpc-srv'
+host: '127.0.0.1'
+port: 50051
+tags:
+  - 'go'
+  - 'grpc'
+  - 'srv'
+log_level: debug
+
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  database: 'db'
+  username: 'root'
+  password: ''
+
+consul:
+  host: '127.0.0.1'
+  port: 8500
+
+jaeger:
+  name: 'go-gin-srv'
+  host: '127.0.0.1'
+  port: 6831
